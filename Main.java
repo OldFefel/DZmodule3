@@ -6,12 +6,12 @@ public class Main {
          */
         System.out.println("Введите количество отработаных дней");
                 Scanner scanner = new Scanner(System.in);
-             int a = scanner.nextInt();
+             int days = scanner.nextInt();
         //колво отработаных дней
         System.out.println("Введите дневной доход");
-        int b = scanner.nextInt();
+        int money = scanner.nextInt();
         //дневная зп
-int result= a * b;
-                System.out.println("Ежемесячная зарпалата:" + result);
+int income= days * money;
+                System.out.println("Ежемесячная зарпалата:" + income);
     }
 }
