@@ -2,7 +2,11 @@ import java.util.Scanner;
 
 public class EasyQ {
     public static void main(String[] args) {
+        /*
+        Вводится значение от 1 до 4. Вывести на консоль: Зима, если введено 1, Весна — 2, Лето — 3, Осень — 4
+         */
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите цифру от 1 до 4");
         String yeartime = scanner.next();
         switch (yeartime) {
             case ("1"): {
