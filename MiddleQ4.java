@@ -12,11 +12,11 @@ public class MiddleQ4 {
         int secondnum = scanner.nextInt();
         System.out.println("Введите третье значение");
         int thirthnum = scanner.nextInt();
-        if (firstnum+secondnum>thirthnum &&secondnum+thirthnum>firstnum &&firstnum+thirthnum>secondnum){
+        if (firstnum + secondnum > thirthnum && secondnum + thirthnum > firstnum && firstnum + thirthnum > secondnum) {
             System.out.println("Треугольник пропорционален");
-        }else if (firstnum+secondnum<thirthnum ||secondnum+thirthnum<firstnum||firstnum+thirthnum<secondnum){
-                System.out.println("Треугольник не пропорционален");
-            }else {
+        } else if (firstnum + secondnum < thirthnum || secondnum + thirthnum < firstnum || firstnum + thirthnum < secondnum) {
+            System.out.println("Треугольник не пропорционален");
+        } else {
             System.out.println("Ошибка ввода");
         }
     }

@@ -9,16 +9,16 @@ public class HardQ2 {
         System.out.println("Введите значение первую координату Y");
         int y1 = scanner.nextInt();
         System.out.println("Введите значение вторую координату Y");
-                int y2 = scanner.nextInt();
+        int y2 = scanner.nextInt();
         char x1 = 'A';
         char x2 = 'H';
-        int res1= (Math.abs(x1-x2));
+        int res1 = (Math.abs(x1 - x2));
         int res2 = y1 - y2;
-if (-res1==res2){
-    System.out.println("Клетки находятся на одной диагонали " );
-}else {
-    System.out.println("Клетки не находятся на одной диагонали ");
-}
+        if (-res1 == res2) {
+            System.out.println("Клетки находятся на одной диагонали ");
+        } else {
+            System.out.println("Клетки не находятся на одной диагонали ");
+        }
 
     }
 }
