@@ -21,14 +21,14 @@ public class HardQ {
                 float res1 = a * h;
                 int z = 2;
                 //magic number
-                float s = res1/z;
-                System.out.println("Площадь треугольника равна " +s);
+                float s = res1 / z;
+                System.out.println("Площадь треугольника равна " + s);
                 break;
             }
             case ("2"): {
                 System.out.println("Площадь прямоугольника");
                 System.out.println("Введите значение основания (A)");
-                float a =scanner.nextInt();
+                float a = scanner.nextInt();
                 System.out.println("Введите значение высоты (h)");
                 float h = scanner.nextFloat();
                 float s = a * h;

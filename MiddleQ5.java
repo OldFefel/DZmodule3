@@ -29,6 +29,9 @@ public class MiddleQ5 {
                 System.out.println("Можно приготовить кофе с молоком(на любителя)");
                 break;
             }
+            default: {
+                System.out.println("Неверный ввод данных");
+            }
         }
     }
 }

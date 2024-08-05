@@ -20,10 +20,10 @@ public class MiddleQ2 {
         //4ac
         int d = p - h;
         //b^2 - 4ac
-        if (d<0){
+        if (d < 0){
             System.out.println("Уравнение не имеет корней " + d);
         }
-else if (d>=0) {
+else if (d >= 0) {
             System.out.println("Дискриминант равен " + d);
         }
     }
